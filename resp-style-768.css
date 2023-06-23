@@ -1,0 +1,257 @@
+/* NOTES
+
+Color   - #f5f5f7
+            - #077f5a
+            - #1d1d1f
+
+Shadow #1d1d1fa0
+*/
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+
+
+
+
+    .sec-nav-main-div ul{
+        display: none;
+    }
+
+    .fa-stream{
+        display: flex;
+    }
+
+
+
+
+
+    
+    .sec-head div span{
+        font-size: 3rem;
+    }
+
+    .sec-head div button{
+        width: 13rem;
+        font-size: 1.3rem;
+        padding: 1.3rem 0;
+    }
+
+
+
+
+
+    .sec-two-span-main{
+        text-align: center;
+    }
+
+
+
+
+
+    .sec-mid-div-main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sec-mid{
+        width: 100%;
+        padding: 0 0;
+    }
+
+    .sec-mid-div-main img{
+        margin: auto;
+        width: 100%;
+
+        object-fit: cover;
+        object-position: center 20%;
+
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .sec-mid-div-secon{
+        padding: 0 0;
+    }
+
+    .sec-mid-div-secon span{
+        padding: 2rem 1rem;
+
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .sec-mid-div-secon p{
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-bottom: 1.5rem;
+        text-align: justify;
+
+        font-size: 1.2rem;
+        text-indent: 3rem;
+    }
+
+    .sec-mid-div-secon h6{
+        text-align: right;
+        padding-right: 2rem;
+        padding-bottom: 2rem;
+    }
+
+
+
+
+
+
+    .sec-four-m-div{
+        flex-direction: column;
+        width: 24rem;
+
+        margin: auto;
+    }
+
+    .sec-four-n-div{
+        padding-left: 0;
+    }
+
+    .sec-four-span-main{
+        text-align: center;
+    }
+
+    .sec-four-m-div img{
+        border-top-right-radius: 1rem;
+        border-bottom-left-radius: 0;
+        width: 100%;
+    }
+
+    .sec-four-div-main{
+        gap: 3rem;
+    }
+
+    .sec-four-pay-div{
+        margin: auto;
+        padding-left: 0;
+        padding-right: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .sec-four-pay-div span{
+        color: #1d1d1f;
+        display: flex;
+        position: static;
+        align-self: center;
+    }
+
+    .sec-four-pay-div button{
+        color: #f5f5f7;
+        width: 14rem;
+        font-size: 1.2rem;
+    }
+
+    .sec-four-n-div ul{
+        gap: 1rem;
+    }
+
+
+
+
+
+    .inv-two{
+        top: 97rem;
+    }
+    
+    .inv-mid{
+        top: 179rem;
+    }
+    
+    .inv-four{
+        top: 226rem;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 596px) {
+    
+    .sec-head div span{
+        font-size: 2.7rem;
+    }
+
+    .sec-head div p{
+        font-size: 1.7rem;
+    }
+
+
+
+
+
+    .sec-two-span-main{
+        font-size: 2.3rem;
+    }
+
+    .sec-two div span{
+        font-size: 1.6rem;
+    }
+
+    .sec-two div p{
+        font-size: 1.2rem;
+    }
+
+
+
+
+
+    .sec-mid-div-secon span{
+        padding: 2rem 1rem;
+
+        font-size: 1.8rem;
+    }
+
+    .sec-mid-div-secon p{
+        font-size: 1.1rem;
+    }
+
+
+
+
+
+    .sec-four-pay-div{
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .sec-four-pay-div button{
+        width: 14rem;
+        font-size: 1.2rem;
+    }
+
+
+
+
+
+    .sec-foot p{
+        font-size: 0.7rem;
+    }
+
+
+
+
+    .inv-two{
+        top: 88rem;
+    }
+    
+    .inv-mid{
+        top: 166rem;
+    }
+    
+    .inv-four{
+        top: 212rem;
+    }
+
+}

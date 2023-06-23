@@ -1,0 +1,401 @@
+/* NOTES
+
+Color   - #f5f5f7
+            - #077f5a
+            - #1d1d1f
+
+Shadow #1d1d1fa0
+*/
+
+
+
+
+
+*{
+    margin: 0 ;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #f5f5f7;
+    font-family: instru;
+    width: 100rem;
+    margin: auto;
+    position: relative;
+}
+
+@font-face {
+    font-family: instru;
+    src: url(fonts/InstrumentSans-VariableFont_wdth\,wght.ttf);
+}
+
+
+
+
+
+
+
+/* SEC NAV */
+
+.sec-nav{
+    width: 100%;
+    height: 10rem;
+    position: sticky;
+    top: 0;
+}
+
+.sec-nav-main-div{
+    width: 112%;
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    position: relative;
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background-color: #077f5a;
+    box-shadow: 1rem 2rem 2rem 0 #1d1d1f17;
+}
+
+.sec-nav-main-div span{
+    padding-left: 6rem;
+    display: flex;
+    align-items: center;
+
+    font-weight: bold;
+    color: #f5f5f7;
+    font-size: 2.5rem;
+}
+
+.sec-nav-main-div ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-right: 6rem;
+}
+
+.sec-nav-main-div ul li{
+    list-style: none;
+}
+
+.sec-nav-main-div ul li a{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #f5f5f7;
+}
+
+.fa-stream{
+    position: absolute;
+    top: 3.2rem;
+    right: 3rem;
+
+    font-size: 1.5rem;
+    color: #f5f5f7;
+    display: none;
+}
+
+
+
+
+
+/* SEC INV */
+
+.sec-inv span{
+    position: absolute;
+    width: 1px;
+}
+
+.inv-two{
+    top: 60rem;
+    color: transparent;
+}
+
+.inv-mid{
+    top: 103rem;
+    color: transparent;
+}
+
+.inv-four{
+    top: 140rem;
+    color: transparent;
+}
+
+
+
+
+
+
+
+
+/* SEC HEAD */
+
+.sec-head{
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-head div{
+    width: 43%;
+    padding: 4rem 0;
+}
+
+.sec-head div span{
+    font-size: 4rem;
+    font-weight: bold;
+    color: #1d1d1f;
+}
+
+.sec-head div p{
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+
+    font-size: 2rem;
+    color: #1d1d1f;
+}
+
+.sec-head div button{
+    padding: 1.5rem 0;
+    width: 16rem;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f5f5f7;
+    background-color: #077f5a;
+    border-radius: 3rem;
+    border: none;
+}
+
+.sec-head img{
+    width: 45%;
+
+    object-fit: cover;
+    object-position: left center;
+
+    border-radius: 2rem;
+}
+
+
+
+
+
+
+/* SEC TWO */
+
+.sec-two{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10rem;
+}
+
+.sec-two-span-main{
+    padding-bottom: 5rem;
+
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.sec-two-div-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-two-div-main div{
+    width: 28%;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.sec-two-div-icon{
+    color: #077f5a;
+    font-size: 2.5rem;
+}
+
+.sec-two-div-span{
+    padding-top: 2.5rem;
+    padding-bottom: 1.5rem;
+
+    color: #1d1d1f;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.sec-two div p{
+    font-size: 1.8rem;
+}
+
+
+
+
+/* SEC MID */
+
+.sec-mid{
+    width: 96%;
+    padding: 2rem 2rem;
+    border-radius: 1rem;
+
+    background-color: #077f5a;
+}
+
+.sec-mid-div-main{
+    display: flex;
+}
+
+.sec-mid-div-main img{
+    width: 25%;
+    height: 25%;
+    border-radius: 1rem;
+}
+
+.sec-mid-div-secon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 7%;
+
+    color: #f5f5f7;
+}
+
+.sec-mid-div-secon span{
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+.sec-mid-div-secon p{
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.sec-mid-div-secon h6{
+    font-size: 1.7rem;
+    font-weight: lighter;
+}
+
+
+
+
+
+/* SEC FOUR */
+
+.sec-four{
+    width: 100%;
+    padding: 10rem 0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.sec-four-span-main{
+    font-size: 3rem;
+    font-weight: bold;
+    padding-bottom: 4rem;
+}
+
+.sec-four-div-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-four-m-div{
+    box-shadow: 0rem 0rem 2rem 0 #1d1d1f17;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.sec-four-m-div img{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+
+    width: 28rem;
+}
+
+.sec-four-n-div{
+    padding-left: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.sec-four-n-div span{
+font-size: 1.8rem;
+font-weight: bold;
+}
+
+        .fa-star, .fa-clock, .fa-globe-europe, .fa-cube{
+            color: #077f5a;
+            font-size: 1.8rem;
+        }
+
+.sec-four-n-div ul{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.sec-four-n-div ul li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.sec-four-n-div ul li span{
+    padding-left: 1rem;
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+.sec-four-pay-div{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.sec-four-pay-div span{
+    font-size: 2rem;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+}
+
+.sec-four-pay-div button{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #f5f5f7;
+    background-color: #077f5a;
+    padding: 0.8rem 0.8rem;
+    border-radius: 3rem;
+    border: none;
+}
+
+
+
+
+
+/* SEC FOOT */
+
+.sec-foot{
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+.sec-foot p{
+    font-size: 1.5rem;
+    color: #1d1d1f;
+    opacity: 80%;
+}

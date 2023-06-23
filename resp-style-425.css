@@ -1,0 +1,243 @@
+/* NOTES
+
+Color   - #f5f5f7
+            - #077f5a
+            - #1d1d1f
+
+Shadow #1d1d1fa0
+*/
+
+
+
+
+
+@media screen and (max-width: 425px) {
+    
+
+    .sec-head{
+        padding-bottom: 7rem;
+    }
+
+    .sec-head div span{
+        font-size: 2rem;
+    }
+
+    .sec-head div p{
+        font-size: 1.3rem;
+        padding-top: 2rem;
+    }
+
+    .sec-head div{
+        padding: 3rem 0;
+    }
+
+    .sec-head div button{
+        width: 10rem;
+        font-size: 1rem;
+        padding: 1.1rem 0;
+    }
+
+    .sec-nav .fa-stream{
+        display: none;
+    }
+
+
+
+
+
+
+    .sec-two{
+        padding-bottom: 7rem;
+    }
+    .sec-two-span-main{
+        font-size: 1.8rem;
+        padding-bottom: 4rem;
+    }
+
+    .sec-two-div-main{
+        gap: 3rem;
+    }
+
+    .sec-two-div-span{
+        font-size: 1.4rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .sec-two div p{
+        font-size: 1rem;
+    }
+
+
+
+
+
+    .sec-mid-div-secon span{
+        font-size: 1.4rem;
+    }
+
+    .sec-mid-div-secon p{
+        font-size: 1rem;
+    }
+
+
+
+
+
+    .sec-four{
+        padding: 7rem 0;
+    }
+
+    .sec-four-span-main{
+        font-size: 1.8rem;
+    }
+
+    .sec-four-m-div img{
+        width: 20rem;
+    }
+
+    .sec-four-n-div span{
+        font-size: 1.5rem;
+    }
+
+    .fa-star, .fa-clock, .fa-globe-europe, .fa-cube{
+        font-size: 1.3rem;
+    }
+
+    .sec-four-n-div ul li span{
+        font-size: 1rem;
+    }
+
+    .sec-four-m-div{
+        width: 20rem;
+    }
+
+    .sec-four-pay-div{
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .sec-four-pay-div span{
+        font-size: 1.2rem;
+    }
+
+    .sec-four-pay-div button{
+        width: 12rem;
+        font-size: 1rem;
+    }
+
+    .sec-four-n-div ul{
+        gap: 0.8rem;
+    }
+
+
+
+
+
+    .inv-two{
+        top: 66rem;
+    }
+    
+    .inv-mid{
+        top: 132rem;
+    }
+    
+    .inv-four{
+        top: 176rem;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width: 375px) {
+
+    .sec-four-m-div{
+        width: 18rem;
+    }
+
+    .sec-four-m-div img{
+        width: 18rem;
+    }
+
+    .sec-four-n-div ul{
+        gap: 0.6rem;
+    }
+
+    .sec-four-pay-div{
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .sec-four-pay-div button{
+        width: 12rem;
+        font-size: 1rem;
+    }
+
+
+
+
+    .inv-two{
+        top: 67rem;
+    }
+    
+    .inv-mid{
+        top: 138rem;
+    }
+    
+    .inv-four{
+        top: 184rem;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width: 320px) {
+
+    .sec-four-m-div{
+        width: 15rem;
+    }
+
+    .sec-four-m-div img{
+        width: 15rem;
+    }
+
+    .sec-four-n-div{
+        padding-left: 0;
+    }
+
+    .sec-four-n-div ul{
+        gap: 0.5rem;
+    }
+
+    .sec-four-pay-div{
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .sec-four-pay-div button{
+        width: 10rem;
+        font-size: 1rem;
+    }
+
+
+
+
+    .inv-two{
+        top: 68rem;
+    }
+    
+    .inv-mid{
+        top: 143rem;
+    }
+    
+    .inv-four{
+        top: 193rem;
+    }
+
+}

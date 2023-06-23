@@ -1,0 +1,192 @@
+/* NOTES
+
+Color   - #f5f5f7
+            - #077f5a
+            - #1d1d1f
+
+Shadow #1d1d1fa0
+*/
+
+
+
+
+
+@media screen and (max-width: 1366px) {
+
+
+
+
+
+    .sec-nav-main-div span{
+        padding-left: 4rem;
+        font-size: 2.2rem;
+    }
+
+    .sec-nav-main-div ul{
+        padding-right: 4rem;
+        gap: 2rem;
+    }
+
+    .sec-nav-main-div ul li a{
+        font-size: 1.3rem;
+    }
+
+    .sec-nav-main-div{
+        height: 8rem;
+    }
+
+
+
+
+
+
+    .sec-head{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .sec-head div{
+        width: 100%;
+    }
+
+    .sec-head div span{
+        width: 90%;
+        margin: auto;
+
+        display: flex;
+        text-align: center;
+    }
+
+    .sec-head div p{
+        display: flex;
+        width: 75%;
+
+        margin: auto;
+        text-align: center;
+    }
+
+    .sec-head div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sec-head img{
+        min-width: 90%;
+        max-height: 40rem;
+    }
+
+
+
+
+
+    .sec-two-span-main{
+        margin: auto;
+    }
+
+    .sec-two-div-icon{
+        text-align: center;
+    }
+
+    .sec-two-div-span{
+        text-align: center;
+    }
+
+    .sec-two div p{
+        font-size: 1.5rem;
+        text-align: justify;
+        text-indent: 3rem;
+    }
+
+
+
+
+
+
+    .sec-mid{
+        width: 95%;
+    }
+
+    .sec-mid-div-secon{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .sec-mid-div-secon p{
+        font-size: 1.2rem;
+    }
+
+    .sec-mid-div-secon h6{
+        font-size: 1rem;
+    }
+
+    .sec-mid-div-main img{
+        width: 19.6rem;
+        height: 16.4rem;
+    }
+
+
+
+
+
+
+    .sec-four-div-main{
+        flex-direction: column;
+        width: 95%;
+        margin: auto;
+        gap: 3rem;
+    }
+
+    .sec-four-m-div{
+        display: flex;
+    }
+
+    .sec-four-m-div div{
+        margin: auto;
+    }
+
+    .sec-four-pay-div{
+        gap: 2rem;
+    }
+
+    .sec-four-m-div img{
+        width: 50%;
+        object-fit: cover;
+
+        border-bottom-left-radius: 1rem;
+        border-top-right-radius: 0;
+    }
+
+    .sec-four-span-main{
+        display: flex;
+        justify-content: center;
+    }
+
+    .sec-four-couch{
+        object-position: left;
+    }
+
+
+
+
+    
+    .sec-foot p{
+        font-size: 1.3rem;
+    }
+
+
+
+
+    .inv-two{
+        top: 95rem;
+    }
+    
+    .inv-mid{
+        top: 138rem;
+    }
+    
+    .inv-four{
+        top: 170rem;
+    }
+
+}

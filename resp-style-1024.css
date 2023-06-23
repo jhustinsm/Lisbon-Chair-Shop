@@ -1,0 +1,240 @@
+/* NOTES
+
+Color   - #f5f5f7
+            - #077f5a
+            - #1d1d1f
+
+Shadow #1d1d1fa0
+*/
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+
+
+
+
+    .sec-nav-main-div span{
+        padding-left: 3.5rem;
+        font-size: 2rem;
+    }
+
+    .sec-nav-main-div ul{
+        padding-right: 3.5rem;
+        gap: 2rem;
+    }
+
+    .sec-nav-main-div ul li a{
+        font-size: 1.2rem;
+    }
+
+    .sec-nav-main-div{
+        height: 8rem;
+    }
+
+
+
+
+
+
+    .sec-head div span{
+        font-size: 3.5rem;
+    }
+
+    .sec-head div p{
+        font-size: 1.8rem;
+    }
+
+
+
+
+
+    .sec-two-span-main{
+        font-size: 2.5rem;
+    }
+
+    .sec-two-div-main{
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+       gap: 5rem;
+    }
+
+    .sec-two-div-main div{
+        width: 80%;
+    }
+
+
+
+
+
+    .sec-mid-div-secon span{
+        font-size: 2rem;
+    }
+
+    .sec-mid{
+        width: 93%;
+    }
+
+
+
+
+
+    .sec-four-span-main{
+        font-size: 2.5rem;
+    }
+
+    .sec-four-pay-div{
+        gap: 0.5rem;
+        padding-bottom: 3rem;
+        padding-left: 1rem;
+        padding-right: 0;
+    }
+
+    .sec-four-div-main{
+        margin: auto;
+    }
+
+    .sec-four-pay-div span{
+        font-size: 1.5rem;
+    }
+
+    .sec-four-pay-div button{
+        color: #077f5a;
+        font-size: 1rem;
+        width: 12rem;
+        margin: auto;
+        justify-content: center;
+        color: #f5f5f7;
+        font-weight: bold;
+    }
+
+
+
+
+
+
+        .inv-two{
+            top: 92rem;
+        }
+
+        .inv-mid{
+            top: 169rem;
+        }
+
+        .inv-four{
+            top: 201rem;
+        }
+
+
+
+
+
+        .sec-foot p{
+            font-size: 1.1rem;
+        }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 896px) {
+
+
+
+
+
+    .sec-nav-main-div span{
+        padding-left: 3.5rem;
+        font-size: 2rem;
+    }
+
+    .sec-nav-main-div ul{
+        padding-right: 3.5rem;
+        gap: 1.8rem;
+    }
+
+    .sec-nav-main-div ul li a{
+        font-size: 1rem;
+    }
+
+    .sec-nav-main-div{
+        height: 8rem;
+    }
+
+
+
+
+
+    
+    .sec-mid-div-secon span{
+        font-size: 1.5rem;
+    }
+
+    .sec-mid-div-secon p{
+        font-size: 1.1rem;
+    }
+
+    .sec-mid-div-secon{
+        padding-left: 2rem;
+    }
+
+    .sec-mid{
+        width: 92%;
+    }
+
+
+
+
+
+    .fa-star, .fa-clock, .fa-globe-europe, .fa-cube{
+        font-size: 1.5rem;
+    }
+
+    .sec-four-n-div ul li span{
+        font-size: 1.2rem;
+    }
+
+    .sec-four-pay-div{
+        gap: 2rem;
+    }
+
+
+
+
+
+    .sec-foot p{
+        font-size: 1rem;
+    }
+
+
+
+
+    .inv-two{
+        top: 99rem;
+    }
+    
+    .inv-mid{
+        top: 178rem;
+    }
+    
+    .inv-four{
+        top: 209rem;
+    }
+
+}
